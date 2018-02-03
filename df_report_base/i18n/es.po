@@ -1,0 +1,151 @@
+﻿# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.1-1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-16 17:25+0000\n"
+"PO-Revision-Date: 2012-11-16 17:25+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. openerp-web
+#: df_report_base/static/js/web_advanced_export.js:82
+msgid "Advanced"
+msgstr "Avanzados"
+
+#. openerp-web
+#: df_report_base/static/js/web_advanced_export.js:85
+msgid "Only selected elements"
+msgstr "Solo elementos seleccionados"
+
+#. openerp-web
+#: df_report_base/static/js/web_advanced_export.js:89
+msgid "Only screen elements"
+msgstr "Solo elementos en pantalla"
+
+#. openerp-web
+#: df_report_base/static/js/web_advanced_export.js:93
+msgid "All filtered elements"
+msgstr "Todos los elementos filtrados"
+
+#. openerp-web
+#: df_report_base/static/js/web_advanced_export.js:97
+msgid "Set configuration for screen report"
+msgstr "Establecer configuración para informe de pantalla"
+
+#. openerp-web
+#: df_report_base/static/js/web_advanced_export.js:146
+#: df_report_base/static/js/web_advanced_export.js:197
+#: df_report_base/static/js/web_advanced_export.js:242
+#: df_report_base/static/js/web_advanced_export.js:297
+msgid "Functionality only available in View of type tree"
+msgstr "Funcionalidad solo disponible en la Vista de tipo árbol"
+
+#. openerp-web
+#: df_base_web/static/src/js/fields.js:451
+msgid "Group"
+msgstr "Grupo"
+
+#. module: df_report_base
+#: code:my_ps_list:277
+#, python-format
+msgid "Yes"
+msgstr "Si"
+
+#. module: df_report_base
+#: code:my_ps_list:277
+#, python-format
+msgid "No"
+msgstr "No"
+
+#. module: df_report_base
+#: code:my_ps_list:287
+#, python-format
+msgid "Undefined"
+msgstr "Sin definir"
+
+#. module: df_report_base
+#: code:my_ps_list:288
+#, python-format
+msgid "undefined"
+msgstr "sin definir"
+
+#. module: df_report_base
+#: code:my_ps_list:187
+#, python-format
+msgid "Grouped by:"
+msgstr "Agrupado por:"
+
+#. module: df_report_base
+#: code:my_ps_list:189
+#, python-format
+msgid "Filtered by:"
+msgstr "Filtrado por:"
+
+#. module: df_report_base
+#: code:wizard/df_wizard_screen_config.py:86
+#: code:res.users.py:901
+#, python-format
+msgid "This model no have name"
+msgstr "Este modelo no tiene nombre"
+
+#. module: df_report_base
+#: view:df_wizard_screen_config_view:0
+msgid "Columns to display"
+msgstr "Columnas para mostrar"
+
+#. module: df_report_base
+#: view:df_wizard_screen_config_view:0
+msgid "Title for current view on Screen Report"
+msgstr "Título para la vista actual en Informe de Pantalla"
+
+#. module: df_report_base
+#: view:df_wizard_screen_config_view:0
+msgid "Columns to show on Screen Report"
+msgstr "Columnas para mostrar en Informe de Pantalla"
+
+#. module: df_report_base
+#: view:df_wizard_screen_config_view:0
+msgid "Cancel"
+msgstr "Cancelar
+
+#. module: df_report_base
+#: view:df_wizard_screen_config_view:0
+msgid "Assign"
+msgstr "Assignar"
+
+#. module: df_report_base
+#: view:df_wizard_screen_config_view:0
+msgid "Establishing configuration for screen report"
+msgstr "Estableciendo configuración para informe de pantalla"
+
+#. module: df_report_base
+#: view:df_wizard_screen_config_view:0
+msgid "Select columns for your screen report"
+msgstr "Seleccionar columnas para su informe de pantalla"
+
+#. module: df_report_base
+#: view:df_report_main_menu:0
+msgid "Reports"
+msgstr "Informes"
+
+#. module: df_report_base
+#: view:df_wizard_screen_config_view:0
+msgid "Fields"
+msgstr "Campos"
+
+#. module: df_report_base
+#: model:res.groups,name:df_report_base.group_report_base_manager
+msgid "Report Base Manager"
+msgstr "Gestor de Informes Base"
+
+#. module: df_report_base
+#: model:ir.module.category,name:df_report_base.module_category_df_report_base
+msgid "DesoftERP - Report Manager"
+msgstr "DesoftERP - Gestor de Informe"

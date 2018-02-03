@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_report_base,df.report.screen.config,model_df_report_screen_config,group_report_base_manager,1,1,1,1
+access_report_base_fields,df.report.screen.config.fields,base.model_ir_model_fields,group_report_base_manager,1,1,1,1

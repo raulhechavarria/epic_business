@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+		<record id="category_produccion" model="product.category">
+            <field name="name">Produccion</field>
+        </record>
+       
+       <record id="category_insumos" model="product.category">
+            <field name="name">insumos</field>
+        </record>
+       
+       
+
+    </data>
+</openerp>
+		

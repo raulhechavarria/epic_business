@@ -1,0 +1,570 @@
+# Spanish translation for openerp-web
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the openerp-web package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openerp-web\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-07-13 15:03+0200\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"Last-Translator: Noel Jesús Rivero Pino <Unknown>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-07-14 06:44+0000\n"
+"X-Generator: Launchpad (build 15614)\n"
+
+
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:61
+msgid "Invalid value."
+msgstr "Valor incorrecto."
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:2238
+msgid "There is not file to save."
+msgstr "No existe ningun fichero para guardar."
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:2238
+msgid "File Manager"
+msgstr "Administrador de ficheros"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:90
+msgid "Must be less than"
+msgstr "Debe ser menor que"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:100
+msgid "Must be grater than"
+msgstr "Debe ser mayor que"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:90
+msgid "Must be less than or equal"
+msgstr "debe ser menor o igual que"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:100
+msgid "Must be grater than or equal"
+msgstr "debe ser mayor o igual que"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:403
+msgid "The following fields are invalid :"
+msgstr "Los campos siguientes no tienen validez :"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:162
+msgid "Group"
+msgstr "Grupo"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:1420
+msgid "warning"
+msgstr "Advertencia"
+
+#. openerp-web
+#: addons/web/static/src/js/chrome.js:176
+#: addons/web/static/src/js/chrome.js:202
+#: addons/web/static/src/js/chrome.js:380
+#: addons/web/static/src/js/view_form.js:457
+#: addons/web/static/src/js/view_form.js:1292
+#: addons/web/static/src/xml/base.xml:1701
+msgid "Ok"
+msgstr "Aceptar"
+
+#. openerp-web
+#: addons/web/static/src/js/chrome.js:393
+msgid "Create database"
+msgstr "Crear base de datos"
+
+#. openerp-web
+#: addons/web/static/src/js/chrome.js:395
+#, python-format
+msgid "Database \"%s\" already exist"
+msgstr "La base de datos \"%s\" ya existe"
+
+#. openerp-web
+#: addons/web/static/src/js/data_import.js:346
+msgid ""
+"Destination fields should only be selected once, some fields are selected "
+"more than once:"
+msgstr "Los campos de destino deberían ser seleccionados solamente una vez,"
+"algunos de los campos han sido seleccionados más de una:"
+
+#. openerp-web
+#: addons/web/static/src/js/data_import.js:383
+msgid "*Required Fields are not selected :"
+msgstr "*Los campos requeridos no han sido seleccionados:"
+
+#. openerp-web
+#: addons/web/static/src/js/formats.js:139
+#, python-format
+msgid "(%d records)"
+msgstr "(%d tuplas)"
+
+#. openerp-web
+#: addons/web/static/src/js/view_editor.js:375
+#: addons/web/static/src/js/view_editor.js:959
+msgid "Can't Update View"
+msgstr "La vista no puede ser actualizada"
+
+#. openerp-web
+#: addons/web/static/src/js/view_editor.js:378
+msgid "Select an element"
+msgstr "Seleccionar un elemento"
+
+#. openerp-web
+#: addons/web/static/src/js/view_editor.js:934
+msgid "Node Type"
+msgstr "Tipo de nodo"
+
+#. openerp-web
+#: addons/web/static/src/js/view_editor.js:936
+msgid "Position"
+msgstr "Posición"
+
+#. openerp-web
+#: addons/web/static/src/js/view_editor.js:974
+msgid "New Field"
+msgstr "Nuevo campo"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:210
+msgid "The record could not be found in the database."
+msgstr "La tupla no puede ser encontrada en la base de datos."
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:782
+msgid "Could not find id in dataset"
+msgstr "El id no se encuentra en el grupo de datos."
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:842
+msgid "Delete an attachment"
+msgstr "Borrar un adjunto"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:843
+#, python-format
+msgid "The attachment '%s' has been deleted"
+msgstr "El adjunto '%s' ha sido eliminado"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1563
+msgid "E-mail error"
+msgstr "Error con el correo electrónico"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1563
+msgid "Can't send email to invalid e-mail address"
+msgstr "El correo no puede ser enviado a una dirección de correo no válida"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1580
+msgid "Resource error"
+msgstr "Error de recurso"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1580
+msgid "This resource is empty"
+msgstr "El recurso está vacío"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1621
+msgid "Erase the current date"
+msgstr "Borrar la fecha"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1622
+#: addons/web/static/src/js/view_form.js:1652
+msgid "Done"
+msgstr "Hecho"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1623
+msgid "Close without change"
+msgstr "Cerrar sin hacer cambios"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1624
+msgid "<Prev"
+msgstr "<Ant"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1625
+msgid "Show the previous month"
+msgstr "Mostrar el mes anterior"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1626
+msgid "Next>"
+msgstr "Pro>"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1627
+msgid "Show the next month"
+msgstr "Mostrar el próximo mes"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1628
+msgid "Today"
+msgstr "Hoy"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1629
+msgid "Show the current month"
+msgstr "Mostrar el mes actual"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1632
+msgid "Show a different month"
+msgstr "Mostrar un mes diferente"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1633
+msgid "Show a different year"
+msgstr "Mostrar un año diferente"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1635
+msgid "Week of the year"
+msgstr "Semana del año"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1639
+msgid "Set DD as first week day"
+msgstr "Poner DD como el primer día de la semana"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1640
+msgid "Select D, M d"
+msgstr "Seleccionar D, M d"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1642
+msgid "Select a date"
+msgstr "Seleccionar una fecha"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1646
+msgid "Choose Time"
+msgstr "Escoger el uso horario"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1647
+msgid "Time"
+msgstr "Uso horario"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1648
+msgid "Hour"
+msgstr "Hora"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1649
+msgid "Minute"
+msgstr "Minuto"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1650
+msgid "Second"
+msgstr "Segundo"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1651
+msgid "Now"
+msgstr "Actual"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:3439
+msgid "File Upload"
+msgstr "Subir fichero"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:3439
+msgid "There was a problem while uploading your file"
+msgstr "Ocurrió un problema cuando se intentaba subir el fichero."
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:3439
+msgid "The following fields are invalid"
+msgstr "Los siguientes campos son incorrectos"
+
+#. module: base
+#: field:ir.filters,name:0
+msgid "Filter Name"
+msgstr "Nombre del filtro"
+
+#. module: base
+#: field:ir.module.module,complexity:0
+msgid "Complexity"
+msgstr "Complejidad"
+
+#. module: base
+#: code:addons/base/module/module.py:346
+#: view:ir.module.module:0
+#, python-format
+msgid "Install"
+msgstr "Instalar"
+
+#. module: base
+#: code:addons/base/module/module.py:429
+#: view:ir.module.module:0
+#, python-format
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#. module: base
+#: model:ir.model,name:base.model_ir_module_category
+#: field:ir.module.module,application:0
+#: field:res.groups,category_id:0
+msgid "Application"
+msgstr "Aplicación"
+
+#. module: base
+#: field:ir.mail_server,smtp_encryption:0
+msgid "Connection Security"
+msgstr "Seguridad de conexión"
+
+#. module: base
+#: code:addons/base/publisher_warranty/publisher_warranty.py:145
+#, python-format
+msgid "Please verify your publisher warranty serial number and validity."
+msgstr "Por favor verifique y valide el número de serie del certificado de publicación."
+
+#. module: base
+#: code:addons/base/ir/ir_model.py:537
+#, python-format
+msgid ""
+"You can not read this document (%s) ! Be sure your user belongs to one of "
+"these groups: %s."
+msgstr ""
+"¡No puede leer este documento (%s)! Asegúrese que su usuario pertenezca a "
+"alguno de estos grupos: %s."
+
+#. module: base
+#: code:addons/base/ir/ir_model.py:543
+#: code:addons/orm.py:3436
+#: code:addons/orm.py:3656
+#: code:addons/orm.py:3668
+#: code:addons/orm.py:3894
+#: code:addons/orm.py:4408
+#, python-format
+msgid "AccessError"
+msgstr "Error de Acceso"
+
+#. module: mail
+#: help:mail.compose.message,reply_to:0 help:mail.message,reply_to:0
+#: help:mail.message.common,reply_to:0
+msgid "Preferred response address for the message"
+msgstr "Dirección preferida de respuesta para el mensaje."
+
+#. module: mail
+#: help:mail.compose.message,auto_delete:0
+msgid "Permanently delete emails after sending"
+msgstr "Eliminar mensajes permanentemente después de enviar."
+
+#. module: mail
+#: view:mail.thread:0
+msgid "Communication History"
+msgstr "Historial de comunicación"
+
+#. module: mail
+#: view:mail.compose.message:0
+msgid "Body"
+msgstr "Cuerpo"
+
+#. module: mail
+#: field:mail.compose.message,body_text:0 field:mail.message,body_text:0
+#: field:mail.message.common,body_text:0
+msgid "Text contents"
+msgstr "Contenidos del texto"
+
+#. module: mail
+#: selection:mail.message,state:0
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: mail
+#: code:addons/mail/wizard/mail_compose_message.py:152
+#, python-format
+msgid "On %(date)s, "
+msgstr ""
+
+#. module: mail
+#: view:mail.message:0
+msgid "Advanced"
+msgstr "Avanzado"
+
+#. module: mail
+#: code:addons/mail/wizard/mail_compose_message.py:157
+#, python-format
+msgid "Re:"
+msgstr "Re:"
+
+#. module: mail
+#: code:addons/mail/wizard/mail_compose_message.py:153
+#, python-format
+msgid "%(sender_name)s wrote:"
+msgstr "%(sender_name)s escribió:"
+
+#. module: mail
+#: field:mail.compose.message,body_html:0 field:mail.message,body_html:0
+#: field:mail.message.common,body_html:0
+msgid "Rich-text contents"
+msgstr "Contenidos ricos en texto"
+
+#. module: mail
+#: view:mail.compose.message:0 view:mail.message:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: mail
+#: view:mail.message:0
+msgid "Open"
+msgstr "Abrir"
+
+#. module: mail
+#: model:ir.actions.act_window,name:mail.action_view_mailgate_thread
+#: view:mail.thread:0
+msgid "Email Threads"
+msgstr "Hilos de mensaje"
+
+#. module: mail
+#: view:mail.message:0
+msgid "Body (Plain)"
+msgstr "Cuerpo (Plano)"
+
+#. module: mail
+#: view:mail.message:0
+msgid "Body (Rich)"
+msgstr "Cuerpo (Rico)"
+
+#. module: mail
+#: code:addons/mail/mail_message.py:155
+#, python-format
+msgid ""
+"%s wrote on %s: \n"
+" Subject: %s \n"
+"\t"
+msgstr ""
+"%s escrito en %s: \n"
+" Asunto: %s \n"
+"\t"
+
+#. module: mail
+#: help:mail.compose.message,references:0 help:mail.message,references:0
+#: help:mail.message.common,references:0
+msgid "Message references, such as identifiers of previous messages"
+msgstr "Referencias de mensajes, como identificadores de mensajes anteriores"
+
+#. module: mail
+#: model:ir.model,name:mail.model_mail_message
+msgid "Email Message"
+msgstr "Mensaje de correo"
+
+#. module: mail
+#: model:ir.model,name:mail.model_mail_thread view:mail.thread:0
+msgid "Email Thread"
+msgstr "Hilo de correo"
+
+#. module: mail
+#: help:mail.compose.message,email_to:0 help:mail.message,email_to:0
+#: help:mail.message.common,email_to:0
+msgid "Message recipients"
+msgstr "Destinatarios del mensaje."
+
+#. module: mail
+#: help:mail.compose.message,email_cc:0 help:mail.message,email_cc:0
+#: help:mail.message.common,email_cc:0
+msgid "Carbon copy message recipients"
+msgstr "Destinatarios en copia carbón del mensaje."
+
+#. module: mail
+#: help:mail.compose.message,email_bcc:0 help:mail.message,email_bcc:0
+#: help:mail.message.common,email_bcc:0
+msgid "Blind carbon copy message recipients"
+msgstr "Destinatarios en copia carbón oculta del mensaje."
+
+#. openerp-web_graph
+#: addons/df_base_web/static/src/js/fields.js:1511
+msgid "Undefined"
+msgstr "No Definido"
+
+#. openerp-web_graph
+#: addons/df_base_web/static/src/js/fields.js:1640
+msgid "Undefined"
+msgstr "No Definido"
+
+#. module: base
+#: code:addons/osv.py:129
+#, python-format
+msgid "Constraint Error"
+msgstr "Error en la restricción"
+
+#. openerp-web
+#: addons/web/static/src/xml/base.xml:44 addons/web/static/src/xml/base.xml:315
+msgid "Powered by"
+msgstr "Con tecnología de "
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:2024
+msgid "Close"
+msgstr "Cerrar"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:2025
+msgid "<Prev"
+msgstr "<Ant"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/field.js:2026
+msgid "Next>"
+msgstr "Sig>"
+
+#. openerp-web
+#: addons/web/static/src/js/view_form.js:1634
+msgid "Wk"
+msgstr "Sm"
+
+#. openerp-web
+#: addons/web_calendar/static/src/js/calendar.js:466
+msgid "Responsible"
+msgstr "Filtro"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/fields.js:167
+msgid "The size of the field must be lower than"
+msgstr "El tamaño del campo debe ser menor de"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/fields.js:116
+msgid "The value of the field must be between -2147483648 and 2147483647."
+msgstr "El valor del campo debe estar entre -2147483648 y 2147483647."
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/fields.js:121
+msgid "The value of the field must be between -9223372036854775808 and 9223372036854775807."
+msgstr "El valor del campo debe estar entre -9223372036854775808 y 9223372036854775807."
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/fields.js:131
+msgid "The value of the field must be between 1e-307 and 1e+308."
+msgstr "El valor del campo debe estar entre 1e-307 y 1e+308."
+
+#. openerp-web
+#: addons/web/static/src/js/view_list.js:524
+msgid "Do you really want to remove these records?"
+msgstr "Está seguro que desea eliminarlo(s)?"
+
+#. openerp-web
+#: addons/df_base_web/static/src/js/fields.js:371
+msgid "Invalid file type"
+msgstr "Tipo de archivo incorrecto"

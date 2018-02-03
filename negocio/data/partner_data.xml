@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        
+        
+       
+        
+        <!-- res.partner -->
+        <record id="res_partner_0000" model="res.partner">
+			<field eval="0" name="comment"/>
+			<field eval="0" name="ean13"/>
+			<field eval="0" name="code"/>
+			<field eval="False" name="color"/>
+			<field eval="0" name="padre_id"/>
+			<field eval="0" name="date"/>
+			<field eval="False" name="nit_code"/>
+			<field eval="0" name="reeup_code"/>
+			<field eval="0" name="user_id"/>
+			<field eval="0" name="opt_out"/>
+			<field eval="False" name="sector"/>
+			<field eval="0" name="title"/>
+			<field name="company_id" ref="base.main_company"/>
+			<field eval="0" name="parent_id"/>
+			<field eval="0" name="last_reconciliation_date"/>
+			<field eval="0" name="employee"/>
+			<field eval="0" name="ref"/>
+			<field eval="0" name="vat"/>
+			<field eval="0" name="website"/>
+			<field eval="0" name="customer"/>
+			<field eval="0" name="organization_id"/>
+			<field eval="0" name="supplier"/>
+			<field eval="1" name="active"/>
+			<field name="lang">en_US</field>
+			<field eval="False" name="credit_limit"/>
+			<field name="name">Desoft</field>
+			<field eval="0" name="productive_id"/>
+			<field eval="False" name="debit_limit"/>
+			<field eval="[(6,0,[])]" name="category_id"/>
+		</record>
+	           
+        <record id="res_partner_0000" model="res.partner">
+            <field eval="0" name="comment"/>
+            <field eval="0" name="ean13"/>
+            <field eval="0" name="code"/>
+            <field eval="False" name="color"/>
+            <field eval="0" name="padre_id"/>
+            <field eval="0" name="date"/>
+            <field eval="False" name="nit_code"/>
+            <field eval="0" name="reeup_code"/>
+            <field eval="0" name="user_id"/>
+            <field eval="0" name="opt_out"/>
+            <field eval="False" name="sector"/>
+            <field eval="0" name="title"/>
+            <field name="company_id" ref="base.main_company"/>
+            <field eval="0" name="parent_id"/>
+            <field eval="0" name="last_reconciliation_date"/>
+            <field eval="0" name="employee"/>
+            <field eval="0" name="ref"/>
+            <field eval="0" name="vat"/>
+            <field eval="0" name="website"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="organization_id"/>
+            <field eval="0" name="supplier"/>
+            <field eval="1" name="active"/>
+            <field name="lang">en_US</field>
+            <field eval="False" name="credit_limit"/>
+            <field name="name">Etecsa</field>
+            <field eval="0" name="productive_id"/>
+            <field eval="False" name="debit_limit"/>
+            <field eval="[(6,0,[])]" name="category_id"/>
+        </record>
+        
+    </data>
+</openerp>

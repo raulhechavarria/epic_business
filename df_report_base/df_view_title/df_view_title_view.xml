@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<openerp>
+    <data>
+		
+		
+		<!-- Tree View -->
+		<record model="ir.ui.view" id="view_view_title_type_tree">
+			<field name="name">df.view.title.tree</field>
+			<field name="model">df.view.title</field>
+			<field name="type">tree</field>           
+			<field name="arch" type="xml">
+				<tree string="Something1">
+					<field name="current_view_title" />
+					<field name="current_view_id" />
+				</tree>
+			</field>
+		</record>
+		
+		
+		<!-- External User Form View -->
+		<record model="ir.ui.view" id="view_view_title_type_form">
+			<field name="name">df.view.title.type.form</field>
+			<field name="model">df.view.title</field>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<form string="Something2">					
+					<group col="4" colspan="4">
+						<field name="current_view_title" colspan="2" />
+						<field name="current_view_id" colspan="2" />
+					</group>
+				</form>
+			</field>
+		</record>
+		
+		
+		
+		<!-- Action -->
+	    <record model="ir.actions.act_window" id="view_title_action">	       
+	        <field name="res_model">df.view.title</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>       
+	    </record>
+
+	</data>
+</openerp>

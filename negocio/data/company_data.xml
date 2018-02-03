@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+ <!-- organization -->
+        
+        <record id="organization1" model="organization">
+            <field name="name">Micons</field>
+            <field name="description">Ministerio  de la Construccion</field>
+        </record>
+        
+        <record id="dfsicptorganizatMININTion" model="organization">
+            <field name="name">MININT</field>
+            <field name="description">Ministerio  del Interior</field>
+        </record>
+        
+        <record id="dfsicptorganiMICzation" model="organization">
+            <field name="name">MC</field>
+            <field name="description">Ministerio  de comunicaciones</field>
+        </record>
+        
+        <record id="dfsicMINTURptorganization" model="organization">
+            <field name="name">MINTUR</field>
+            <field name="description">Ministerio  del Turismo</field>
+        </record>
+        
+        <record id="dfMINBASsicptorganization" model="organization">
+            <field name="name">MINBAS</field>
+            <field name="description">Ministerio  del la Industria Basica</field>
+        </record>
+
+<!-- multi company
+       
+        <record id="company_epic" model="res.company">
+            <field name="name">Empresa de Producción Industrial de Camagüey</field>
+            <field name="sector">gubernamental</field>
+            <field ref="organization1" name="organization_id"/>
+        </record>
+       
+        -->
+    </data>
+</openerp>
+        

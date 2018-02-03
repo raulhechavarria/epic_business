@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    
+        <record model="ir.ui.view" id="ir_action_report_trans_form_view">
+            <field name="name">objectname.form</field>
+            <field name="model">ir.actions.report.xml</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="base.act_report_xml_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="/form/notebook" position="inside">
+                    <page string="Report Transformations">
+                        <field name="transformation_ids" nolabel="1"/>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</openerp>

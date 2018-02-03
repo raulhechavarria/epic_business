@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+    	
+<record id="product_product676" model="product.product">
+	<field name="default_code">676</field>
+	<field name="list_price">0</field>
+	<field name="standard_price">0</field>
+	<field name="uom_id" ref="product.product_uom_unit"/>
+	<field name="uom_po_id" ref="product.product_uom_unit"/>
+	<field name="sale_delay">666.0</field>
+	<field name="name">Lavadero</field>
+	<field name="type">product</field>
+	<field name="categ_id" ref="category_produccion"/>
+</record>
+
+<record id="product_product7232" model="product.product">
+	<field name="default_code">7232</field>
+	<field name="list_price">0</field>
+	<field name="standard_price">0</field>
+	<field name="uom_id" ref="product.product_uom_unit"/>
+	<field name="uom_po_id" ref="product.product_uom_unit"/>
+	<field name="sale_delay">666.0</field>
+	<field name="name">Bolitos</field>
+	<field name="type">product</field>
+	<field name="categ_id" ref="category_produccion"/>
+</record>
+
+<record id="product_product721" model="product.product">
+    <field name="default_code">721</field>
+    <field name="list_price">0</field>
+    <field name="standard_price">0</field>
+    <field name="uom_id" ref="product.product_uom_unit"/>
+    <field name="uom_po_id" ref="product.product_uom_unit"/>
+    <field name="sale_delay">666.0</field>
+    <field name="name">Codos</field>
+    <field name="type">product</field>
+    <field name="categ_id" ref="category_produccion"/>
+</record>
+
+<record id="product_product721" model="product.product">
+    <field name="default_code">721</field>
+    <field name="list_price">0</field>
+    <field name="standard_price">0</field>
+    <field name="uom_id" ref="product.product_uom_meter"/>
+    <field name="uom_po_id" ref="product.product_uom_meter"/>
+    <field name="sale_delay">666.0</field>
+    <field name="name">Arena</field>
+    <field name="type">product</field>
+    <field name="categ_id" ref="category_insumos"/>
+</record>
+
+    </data>
+</openerp>

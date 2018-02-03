@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<openerp>
+    <data>		
+		
+		<!-- Configuration for Screen Reports Form View -->
+		<record model="ir.ui.view" id="view_wizard_screen_config_type_form">
+			<field name="name">df.wizard.screen.config.type.form</field>
+			<field name="model">df.wizard.screen.config</field>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<form string="Columns to display">
+					<separator colspan="4" string="Title for current view on Screen Report"/>
+					<group col="4" colspan="4">
+						<field name="current_view_title" colspan="2" nolabel="1" />
+					</group>
+					<separator colspan="4" string="Columns to show on Screen Report"/>
+					<group col="4" colspan="4">
+						<field name="function_columns_ids" invisible="1" />
+						<field name="display_columns_ids" widget="many2many"  colspan="2" nolabel="1" options='{"nocreate": true}' domain="[('id','in',eval(function_columns_ids))]" >
+						<tree string="Fields" options='{"nocreate": true, "deletable": true, "selectable": false, "header": true, "isClarkGable": false}'>
+							<field name="field_description" string="Select columns for your screen report"  />
+						</tree>
+						</field>
+					</group>
+					<separator colspan="4" />
+					<group colspan="4">
+                        <button special="cancel" string="Cancel" icon='gtk-cancel'/>
+                        <button name="save_screen_config" string="Assign" colspan="1" type="object" icon="kanban-apply" />
+                    </group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Action -->
+		<record id="action_view_screen_config_wizard" model="ir.actions.act_window">
+                <field name="name">Establishing configuration for screen report</field>
+                <field name="res_model">df.wizard.screen.config</field>
+                <field name="view_type">form</field>
+                <field name="view_mode">form</field>
+                <field name="view_id" ref="view_wizard_screen_config_type_form"/>
+                <field name="target">new</field>
+        </record>
+
+	</data>
+</openerp>

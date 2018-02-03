@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+	    <menuitem id="df_report_base_main_menu" 
+	    	name="Reports"
+	    	parent="base.menu_tools"		     	
+	    	sequence="10" icon="terp-account"
+	    	web_icon="images/report-builder.png" 
+	    	web_icon_hover="images/report-builder-hover.png"/>        
+	</data>
+</openerp>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+    	
+        	
+       
+       <record id="UEB" model="productive.entity.type">
+            <field name="name">UEB</field>
+            <field name="description">Unidad Empresarial de Base</field>
+       </record>
+       
+       <record id="UBPC" model="productive.entity.type">
+            <field name="name">UBPC</field>
+            <field name="description">Unidad Basica</field>
+            
+       </record>
+       
+       
+    </data>
+</openerp>

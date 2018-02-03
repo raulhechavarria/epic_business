@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_report_transformation_all,report.transformation.all,df_base_web.model_ir_actions_report_xml_transformation,,1,1,1,1
+access_report_process_all,report.process.all,df_base_web.model_ir_actions_report_xml_process,,1,1,1,1
+access_ir_values_filter_all,ir.values.filter.all,df_base_web.model_ir_values_filter,,1,1,1,1

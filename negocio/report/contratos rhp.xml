@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE models>
+    <models>
+        <model type="fields" name="id">
+          <campo1 type="field" name="date_contract"></campo1>
+                 <campo2 type="field" name="fecha_vencimiento"></campo2>
+           
+    <itemsDate type="call" name="get_number_date" args="" model="df.report.base.utils">
+         <numberDate value="format_date_number" ></numberDate>
+    </itemsDate>
+    </model>
+    </models>
